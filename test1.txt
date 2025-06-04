@@ -2,8 +2,5 @@ hello world1
 hello world2
 hello world3
 hello world4
-<<<<<<< HEAD
 hello world5
-=======
-hello world5
->>>>>>> e5a879723ac0c68bf70cd54274202e4ac9fb75b8
+hello world6
