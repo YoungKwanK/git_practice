@@ -27,3 +27,25 @@ git push origin 브랜치명 --force
 git checkout 커밋ID
 # 특정 branch로의 전환
 git checkout 브랜치명
+
+git checkout 브랜치명
+
+# pull은 원격변경사항을 local로 내려받는 것(fetch+mergy)
+git pull origin main
+
+# fetch는 변경사항을 local가져오되, 병합은 하지 않는 것
+git fetch origin main
+#만약 모든 브랜치의 변경사항을 가져오려면
+git fetch --all
+
+# 버전별(commit간) 비교 명령어
+git diff A B
+git diff commitID1 commitID2
+git diff 브랜치1 브랜치2
+
+# 가장 최신의 커밋 취소
+git reset head~1
+git reset head^
+
+# 이미 push된 commit사항 되돌리는(완전한취소x) commitID생성
+git revert 커밋ID
